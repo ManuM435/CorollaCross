@@ -1,11 +1,15 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+* {
+    font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,4 +45,42 @@ a {
     margin-right: 30px; /* for gap */
     font-size: 1.1em;
 }
+
+.video-background {
+    width: 100%;
+    position: relative;
+    top: 45px; 
+    margin-bottom: 35px;
+}
+
+.text-over-video {
+    position: absolute;
+    top: 75%; /* Vertically center the text */
+    left: 7%;
+    text-align: left;
+    transform: translateY(-75%); /* Adjust for vertical centering */
+}
+
+.video-model-name,
+.video-model-data {
+    color: #fff;
+    text-shadow:
+        -0.15px -0.15px 0 black,  
+        0.15px -0.15px 0 black,
+        -0.15px  0.15px 0 black,
+        0.15px  0.15px 0 black; /* Create black borders using text-shadow */
+}
+
+.video-model-name {
+    font-size: 48px;
+    margin: 0px 0px 16px;
+    font-weight: bold;
+}
+
+.video-model-data {
+    font-size: 32px;
+    margin: 0px 6px 12px;
+}
+
+
 
