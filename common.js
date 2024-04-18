@@ -17,11 +17,11 @@ function insertCommonContent(htmlContent, classes) {
         const elements = doc.querySelectorAll(`.${className}`);
         elements.forEach(element => {
             // Insert each element into the corresponding container on the page
-            const container = document.getElementById(`${className}Container`);
+            const container = document.getElementById(`${className}`);
             container.appendChild(element.cloneNode(true));
         });
     });
 }
 
 // Aca agregar en el input, todas las funciones de codigo repetido que quieras
-fetchAndInsertCommonContent(['header']);
+fetchAndInsertCommonContent(["header"]);
