@@ -23,10 +23,10 @@ a {
 
 .header {
     background: rgba(0, 0, 0, 0.1);
-    padding: 10px 10% 25px 0; /* Added padding-right of 10% */
+    padding: 10px 10% 15px 0; /* Added padding-right of 10% */
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 50px;
     display: flex; /* Use flexbox */
     align-items: center; /* Vertically center items */
     justify-content: flex-end; /* Align items to the right */
