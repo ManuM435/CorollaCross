@@ -1,14 +1,14 @@
 .video-background {
     width: 100%;
     position: relative;
-    top: 45px; 
+    top: 60px; 
     margin-bottom: 35px;
 }
 
 .text-over-video {
     position: absolute;
-    top: 75%; /* Vertically center the text */
-    left: 7%;
+    top: 81%; /* Vertically center the text */
+    left: 5%;
     text-align: left;
     transform: translateY(-75%); /* Adjust for vertical centering */
 }
