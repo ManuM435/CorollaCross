@@ -57,25 +57,10 @@ a {
     transition: .5s;
 }
 
-.video-model-name,
-.video-model-data {
-    color: #fff;
-    margin: 0px 0px 12px;
-    text-shadow:
-        -0.15px -0.15px 0 black,  
-        0.15px -0.15px 0 black,
-        -0.15px  0.15px 0 black,
-        0.15px  0.15px 0 black; /* Create black borders using text-shadow */
+.header-logo {
+    order: 2; /* Move the logo to the beginning */
 }
 
-.video-model-name {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.video-model-data {
-    font-size: 32px;
-}
 
 
 

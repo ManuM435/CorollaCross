@@ -1,3 +1,24 @@
+.video-model-name,
+.video-model-data {
+    color: #fff;
+    margin: 0px 0px 12px;
+    text-shadow:
+        -0.15px -0.15px 0 black,  
+        0.15px -0.15px 0 black,
+        -0.15px  0.15px 0 black,
+        0.15px  0.15px 0 black; /* Create black borders using text-shadow */
+}
+
+.video-model-name {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.video-model-data {
+    font-size: 32px;
+}
+
+
 .video-background {
     width: 100%;
     position: relative;
@@ -19,3 +40,4 @@
     background: linear-gradient(to bottom, rgba(0, 75, 0, 0.3), #FFFFFF); /* Transparent dark green to white gradient */
     padding: 20px; /* Adjust padding as needed */
 }
+
